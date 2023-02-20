@@ -22,7 +22,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2023-02-19T18:41:49.096Z",
-    "modified": "2023-02-20T08:14:20.206Z",
+    "modified": "2023-02-20T13:23:15.213Z",
     "headers": [],
     "params": [],
     "body": {
@@ -39,7 +39,7 @@
         },
         {
           "name": "username",
-          "value": "alopez1001"
+          "value": "alopez13"
         },
         {
           "name": "password",
@@ -47,7 +47,7 @@
         },
         {
           "name": "role",
-          "value": "pancho"
+          "value": "maestro"
         },
         {
           "name": "grado",
@@ -79,7 +79,7 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2023-02-19T20:19:34.389Z",
-    "modified": "2023-02-20T08:26:28.370Z",
+    "modified": "2023-02-20T15:11:01.490Z",
     "headers": [],
     "params": [],
     "body": {
@@ -88,7 +88,7 @@
       "form": [
         {
           "name": "username",
-          "value": "alopez45"
+          "value": "alopez"
         },
         {
           "name": "password",
@@ -103,15 +103,15 @@
     "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
     "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
     "name": "update",
-    "url": "/user/edit/63f2a6d40a3cf04aa40d5d91",
+    "url": "/user/edit/63f373431a133d4c22b86f3d",
     "method": "PUT",
     "sortNum": 70000,
     "created": "2023-02-19T21:38:51.009Z",
-    "modified": "2023-02-20T08:29:26.196Z",
+    "modified": "2023-02-20T13:33:01.852Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YyYTZkNDBhM2NmMDRhYTQwZDVkOTEiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MTAwIiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6IkFMVU1OTyIsImlhdCI6MTY3Njg3ODYyOCwiaWV4cCI6MTY3Njg3ODgwOH0.0QiSJyGO8-51wBXiKvN-z5lHhxoll0BSDSAMk-vMZnc\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY4OTk3MDMsImlleHAiOjE2NzY4OTk4ODN9.pFZDB55UYQ6mkAe3VhIQEiVcrajGgyE7i9jLP9HoHrs\""
       }
     ],
     "params": [],
@@ -129,7 +129,7 @@
         },
         {
           "name": "username",
-          "value": "alopez100"
+          "value": "alopez"
         },
         {
           "name": "password",
@@ -137,20 +137,22 @@
         },
         {
           "name": "role",
-          "value": "MAESTRO"
+          "value": "MAESTRO",
+          "isDisabled": true
         },
         {
           "name": "grado",
-          "value": "6to"
+          "value": "6to",
+          "isDisabled": true
         },
         {
           "name": "carnet",
-          "value": "2018459"
+          "value": "2018459",
+          "isDisabled": true
         },
         {
           "name": "titulo",
-          "value": "Licenciatura",
-          "isDisabled": true
+          "value": "Doctor"
         },
         {
           "name": "email",
@@ -169,11 +171,11 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2023-02-20T06:30:47.675Z",
-    "modified": "2023-02-20T07:56:20.377Z",
+    "modified": "2023-02-20T13:34:50.383Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YyYTZjODhjZWJiMWFkYTZhYzQ4MGQiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MTA0IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY4Nzg3MjAsImlleHAiOjE2NzY4Nzg5MDB9.7A7JxORv-sJJIUBUy4MEXFOw5pwNiOKczShkMTF_kqA\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY5MDAwMTcsImlleHAiOjE2NzY5MDAxOTd9.FmSL4QYnHV6cuwhA1Ri1jc_S3SMgeDuQViNamRhUtCk\""
       }
     ],
     "params": [],
@@ -191,7 +193,7 @@
         },
         {
           "name": "username",
-          "value": "alopez58"
+          "value": "alopez59"
         },
         {
           "name": "password",
@@ -199,21 +201,20 @@
         },
         {
           "name": "role",
-          "value": "maestro"
+          "value": "ALUMNO"
         },
         {
           "name": "grado",
-          "value": "6to",
-          "isDisabled": true
+          "value": "6to"
         },
         {
           "name": "carnet",
-          "value": "2018459",
-          "isDisabled": true
+          "value": "2018459"
         },
         {
           "name": "titulo",
-          "value": "Licencidado"
+          "value": "Licencidado",
+          "isDisabled": true
         },
         {
           "name": "email",
@@ -240,6 +241,77 @@
       }
     ],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4c5b6047-10ef-4947-a523-111e6389af1e",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "ab0c374e-c4e7-46db-a660-faed0e36f3aa",
+    "name": "enroll",
+    "url": "/courses/enroll/63f3a2d741aa0925e7e92921",
+    "method": "PUT",
+    "sortNum": 80000,
+    "created": "2023-02-20T14:44:17.287Z",
+    "modified": "2023-02-20T17:22:18.374Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0Y2YxMGVhYjMyOWUyNmU5NTEiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MiIsImVtYWlsIjoiYWxvcGV6QGtpbmFsLmVkdS5ndCIsInJvbGUiOiJBTFVNTk8iLCJpYXQiOjE2NzY5MDUzMjQsImlleHAiOjE2NzY5MDU1MDR9.kf--dC4BK-IgSaMFnwxYrnXyyPckcmfpfR7s7v31IPs\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "student",
+          "value": "a"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "1d12748a-2113-4ba1-bdc9-d43541f05b1b",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "5b21b506-1d04-45d4-b16d-bb1382232ded",
+    "name": "addCourse",
+    "url": "/courses/add",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2023-02-20T15:09:50.598Z",
+    "modified": "2023-02-20T16:41:59.805Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY5MDYwODQsImlleHAiOjE2NzY5MDYyNjR9.zdL7gdCQ_pYKNOQXOW5GE-XJeJr3FfCVMqSIkcghZwI\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Sociales IIIIIII"
+        },
+        {
+          "name": "description",
+          "value": "Pan"
+        },
+        {
+          "name": "teacher",
+          "value": "alopez58",
+          "isDisabled": true
+        },
+        {
+          "name": "student",
+          "value": "alopez12"
+        }
+      ]
+    },
     "tests": []
   }
 ]

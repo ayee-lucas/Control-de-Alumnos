@@ -12,6 +12,8 @@ require('express-async-errors');
 
 
 const userRoutes = require('../src/Users/user.routes');
+const coursesRoutes = require('../src/Courses/courses.routes');
+
 
 const app = express();
 const port = process.env.PORT || 3200;
@@ -28,6 +30,8 @@ app.use(morgan('dev'));
 
 
 app.use('/user', userRoutes);
+app.use('/courses', coursesRoutes)
+
 
 exports.initServer = _ => {
     app.listen(port);

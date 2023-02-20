@@ -21,16 +21,16 @@ exports.test = (req, res) => {
 
 exports.savePublic = async (req, res) => {
 
-   try {
-    let data = req.body;
+    try {
+        let data = req.body;
 
-    let userRol = 'ALUMNO' 
+        let userRol = 'ALUMNO' 
 
-    !requiredDataNormal(data) ? internal400(res, 'Falta "Grado" y/o "Carnet"', 'Params Required') : null; 
+        !requiredDataNormal(data) ? internal400(res, 'Falta "Grado" y/o "Carnet"', 'Params Required') : null; 
 
-    this.save(req, res, userRol, data);
+        this.save(req, res, userRol, data);
    } catch (err) {
-     console.error(err);
+        console.error(err);
      internal500(res, 'Internal Error', err);
    }
 };
@@ -43,11 +43,9 @@ exports.savePrivate = async (req, res) => {
 
     console.log(data);
 
-
     let userRol = data.role.toUpperCase();
 
     console.log(userRol);
-
 
     if(userRol == 'MAESTRO') !requiredDataPrivate(data) ? internal400(res, 'Falta "Titulo"', 'Params Required') : null; 
     
@@ -190,7 +188,6 @@ exports.update = async(req, res) => {
 };
 
 //Delete
-
 exports.deleteUser = async(req, res) => {
     let userLoggedIn = {user: req.user};
 
@@ -205,9 +202,11 @@ exports.deleteUser = async(req, res) => {
         internal500(res, 'Error deleting user', err);
     });
 
-    return internal200(res, deleteAction);
+    !deleteAction ? internal404(res, '"User"') : null ;
 
+    return internal200(res, deleteAction);
 };
+
 
 
 
