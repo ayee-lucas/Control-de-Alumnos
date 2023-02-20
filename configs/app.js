@@ -8,15 +8,26 @@ const helmet = require('helmet');
 
 const morgan = require('morgan');
 
+require('express-async-errors');
+
+
+const userRoutes = require('../src/Users/user.routes');
 
 const app = express();
 const port = process.env.PORT || 3200;
+
+
+
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(cors());
 app.use(helmet());
 app.use(morgan('dev'));
+
+
+
+app.use('/user', userRoutes);
 
 exports.initServer = _ => {
     app.listen(port);

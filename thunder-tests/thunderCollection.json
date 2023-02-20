@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "_id": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "colName": "control_de_alumnos",
+    "created": "2023-02-19T18:13:31.255Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "4b5db445-9189-46f4-8511-824c54bded3c",
+        "name": "User",
+        "containerId": "",
+        "created": "2023-02-19T18:41:53.293Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "47da8265-94fa-48d7-83c9-0b91650649d8",
+        "name": "ALUMNO",
+        "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
+        "created": "2023-02-19T20:18:42.877Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "8a6ee7fc-6edf-48b5-a696-21ffc2520856",
+        "name": "Maestro",
+        "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
+        "created": "2023-02-20T06:33:50.184Z",
+        "sortNum": 30000
+      }
+    ],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "localhost:2651"
+      }
+    }
+  }
+]

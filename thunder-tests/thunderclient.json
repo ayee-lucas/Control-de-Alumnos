@@ -1,1 +1,245 @@
-[]
+[
+  {
+    "_id": "631e021e-42a4-4715-a4be-4e27fe643714",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "47da8265-94fa-48d7-83c9-0b91650649d8",
+    "name": "test",
+    "url": "/user/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-02-19T18:13:40.069Z",
+    "modified": "2023-02-19T20:18:44.754Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "34e52cc6-28fd-4ac3-9792-2eaadf7714a6",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "47da8265-94fa-48d7-83c9-0b91650649d8",
+    "name": "save",
+    "url": "/user/register",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-02-19T18:41:49.096Z",
+    "modified": "2023-02-20T08:14:20.206Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Alan"
+        },
+        {
+          "name": "surname",
+          "value": "Lopez"
+        },
+        {
+          "name": "username",
+          "value": "alopez1001"
+        },
+        {
+          "name": "password",
+          "value": "123"
+        },
+        {
+          "name": "role",
+          "value": "pancho"
+        },
+        {
+          "name": "grado",
+          "value": "6to"
+        },
+        {
+          "name": "carnet",
+          "value": "2018459"
+        },
+        {
+          "name": "titulo",
+          "value": "a",
+          "isDisabled": true
+        },
+        {
+          "name": "email",
+          "value": "alopez@kinal.edu.gt"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "46b2d885-9a76-4543-96bf-f0e91148ad13",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
+    "name": "login",
+    "url": "/user/login",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2023-02-19T20:19:34.389Z",
+    "modified": "2023-02-20T08:26:28.370Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "alopez45"
+        },
+        {
+          "name": "password",
+          "value": "123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "fe70fde1-1a1e-4db3-b1c2-957c391e94d8",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
+    "name": "update",
+    "url": "/user/edit/63f2a6d40a3cf04aa40d5d91",
+    "method": "PUT",
+    "sortNum": 70000,
+    "created": "2023-02-19T21:38:51.009Z",
+    "modified": "2023-02-20T08:29:26.196Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YyYTZkNDBhM2NmMDRhYTQwZDVkOTEiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MTAwIiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6IkFMVU1OTyIsImlhdCI6MTY3Njg3ODYyOCwiaWV4cCI6MTY3Njg3ODgwOH0.0QiSJyGO8-51wBXiKvN-z5lHhxoll0BSDSAMk-vMZnc\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Alan"
+        },
+        {
+          "name": "surname",
+          "value": "Lopez"
+        },
+        {
+          "name": "username",
+          "value": "alopez100"
+        },
+        {
+          "name": "password",
+          "value": "123"
+        },
+        {
+          "name": "role",
+          "value": "MAESTRO"
+        },
+        {
+          "name": "grado",
+          "value": "6to"
+        },
+        {
+          "name": "carnet",
+          "value": "2018459"
+        },
+        {
+          "name": "titulo",
+          "value": "Licenciatura",
+          "isDisabled": true
+        },
+        {
+          "name": "email",
+          "value": "alopez@kinal.edu.gt"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3f7b49fa-7cd0-47a4-950c-4cbeef33164d",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "8a6ee7fc-6edf-48b5-a696-21ffc2520856",
+    "name": "saveMaestro",
+    "url": "/user/register/private",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-02-20T06:30:47.675Z",
+    "modified": "2023-02-20T07:56:20.377Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YyYTZjODhjZWJiMWFkYTZhYzQ4MGQiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MTA0IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY4Nzg3MjAsImlleHAiOjE2NzY4Nzg5MDB9.7A7JxORv-sJJIUBUy4MEXFOw5pwNiOKczShkMTF_kqA\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Alan"
+        },
+        {
+          "name": "surname",
+          "value": "Lopez"
+        },
+        {
+          "name": "username",
+          "value": "alopez58"
+        },
+        {
+          "name": "password",
+          "value": "123"
+        },
+        {
+          "name": "role",
+          "value": "maestro"
+        },
+        {
+          "name": "grado",
+          "value": "6to",
+          "isDisabled": true
+        },
+        {
+          "name": "carnet",
+          "value": "2018459",
+          "isDisabled": true
+        },
+        {
+          "name": "titulo",
+          "value": "Licencidado"
+        },
+        {
+          "name": "email",
+          "value": "alopez@kinal.edu.gt"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "33af3094-b658-467c-b835-851b735f3cc0",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
+    "name": "Delete",
+    "url": "/user/delete/63f31882a3362356dcf98395",
+    "method": "DELETE",
+    "sortNum": 60000,
+    "created": "2023-02-20T08:25:32.433Z",
+    "modified": "2023-02-20T08:27:39.691Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": " \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzMTg4MmEzMzYyMzU2ZGNmOTgzOTUiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NDUiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njg4MTYzMSwiaWV4cCI6MTY3Njg4MTgxMX0.tycTiviEjDRquIlwhM0NtdtrRNInHayy49Gw-8qlVlw\""
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]
