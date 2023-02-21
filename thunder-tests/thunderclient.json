@@ -22,7 +22,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2023-02-19T18:41:49.096Z",
-    "modified": "2023-02-20T13:23:15.213Z",
+    "modified": "2023-02-21T06:14:21.021Z",
     "headers": [],
     "params": [],
     "body": {
@@ -39,7 +39,7 @@
         },
         {
           "name": "username",
-          "value": "alopez13"
+          "value": "alopez1001"
         },
         {
           "name": "password",
@@ -79,7 +79,7 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2023-02-19T20:19:34.389Z",
-    "modified": "2023-02-20T15:11:01.490Z",
+    "modified": "2023-02-21T06:17:19.531Z",
     "headers": [],
     "params": [],
     "body": {
@@ -88,7 +88,7 @@
       "form": [
         {
           "name": "username",
-          "value": "alopez"
+          "value": "alopez7"
         },
         {
           "name": "password",
@@ -103,15 +103,15 @@
     "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
     "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
     "name": "update",
-    "url": "/user/edit/63f373431a133d4c22b86f3d",
+    "url": "/user/edit/63f3ebd8f53859f3b8e3cb79",
     "method": "PUT",
     "sortNum": 70000,
     "created": "2023-02-19T21:38:51.009Z",
-    "modified": "2023-02-20T13:33:01.852Z",
+    "modified": "2023-02-21T06:17:52.766Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY4OTk3MDMsImlleHAiOjE2NzY4OTk4ODN9.pFZDB55UYQ6mkAe3VhIQEiVcrajGgyE7i9jLP9HoHrs\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWJkOGY1Mzg1OWYzYjhlM2NiNzkiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NyIsImVtYWlsIjoiYWxvcGV6QGtpbmFsLmVkdS5ndCIsInJvbGUiOiJBTFVNTk8iLCJpYXQiOjE2NzY5NjAyMzksImlleHAiOjE2NzY5NjA0MTl9.l5R9EwDnkDoMReuB9dfRCOwIJ6nWgbBz6P9iQ25EmLM\""
       }
     ],
     "params": [],
@@ -129,7 +129,7 @@
         },
         {
           "name": "username",
-          "value": "alopez"
+          "value": "alopez10005"
         },
         {
           "name": "password",
@@ -137,22 +137,20 @@
         },
         {
           "name": "role",
-          "value": "MAESTRO",
-          "isDisabled": true
+          "value": "MAESTRO"
         },
         {
           "name": "grado",
-          "value": "6to",
-          "isDisabled": true
+          "value": "6to"
         },
         {
           "name": "carnet",
-          "value": "2018459",
-          "isDisabled": true
+          "value": "2018459"
         },
         {
           "name": "titulo",
-          "value": "Doctor"
+          "value": "Doctor",
+          "isDisabled": true
         },
         {
           "name": "email",
@@ -169,13 +167,13 @@
     "name": "saveMaestro",
     "url": "/user/register/private",
     "method": "POST",
-    "sortNum": 10000,
+    "sortNum": 20000,
     "created": "2023-02-20T06:30:47.675Z",
-    "modified": "2023-02-20T13:34:50.383Z",
+    "modified": "2023-02-21T06:16:06.022Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY5MDAwMTcsImlleHAiOjE2NzY5MDAxOTd9.FmSL4QYnHV6cuwhA1Ri1jc_S3SMgeDuQViNamRhUtCk\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWNhNjI3MzEzNzkxNTY1NGRjZTYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NjEiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njk2MDEyNCwiaWV4cCI6MTY3Njk2MDMwNH0.s1Z0JvRq--_4P1pZk0JLBZIwyFp9VUul2NpScpfIq3Y\""
       }
     ],
     "params": [],
@@ -193,7 +191,7 @@
         },
         {
           "name": "username",
-          "value": "alopez59"
+          "value": "alopez1003"
         },
         {
           "name": "password",
@@ -201,7 +199,7 @@
         },
         {
           "name": "role",
-          "value": "ALUMNO"
+          "value": "Alumno"
         },
         {
           "name": "grado",
@@ -229,15 +227,15 @@
     "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
     "containerId": "4b5db445-9189-46f4-8511-824c54bded3c",
     "name": "Delete",
-    "url": "/user/delete/63f31882a3362356dcf98395",
+    "url": "/user/delete/63f3ebd30b4c16b67541c15f",
     "method": "DELETE",
     "sortNum": 60000,
     "created": "2023-02-20T08:25:32.433Z",
-    "modified": "2023-02-20T08:27:39.691Z",
+    "modified": "2023-02-21T06:01:05.982Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": " \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzMTg4MmEzMzYyMzU2ZGNmOTgzOTUiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NDUiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njg4MTYzMSwiaWV4cCI6MTY3Njg4MTgxMX0.tycTiviEjDRquIlwhM0NtdtrRNInHayy49Gw-8qlVlw\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWJkMzBiNGMxNmI2NzU0MWMxNWYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NCIsImVtYWlsIjoiYWxvcGV6QGtpbmFsLmVkdS5ndCIsInJvbGUiOiJBTFVNTk8iLCJpYXQiOjE2NzY5NTkyMjcsImlleHAiOjE2NzY5NTk0MDd9.MbX4-lxz_u-gGgNlQq69wNEezLsdKFITKL-ekTIi8oI\""
       }
     ],
     "params": [],
@@ -248,15 +246,15 @@
     "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
     "containerId": "ab0c374e-c4e7-46db-a660-faed0e36f3aa",
     "name": "enroll",
-    "url": "/courses/enroll/63f3a2d741aa0925e7e92921",
+    "url": "/courses/enroll",
     "method": "PUT",
     "sortNum": 80000,
     "created": "2023-02-20T14:44:17.287Z",
-    "modified": "2023-02-20T17:22:18.374Z",
+    "modified": "2023-02-21T06:04:22.228Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0Y2YxMGVhYjMyOWUyNmU5NTEiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MiIsImVtYWlsIjoiYWxvcGV6QGtpbmFsLmVkdS5ndCIsInJvbGUiOiJBTFVNTk8iLCJpYXQiOjE2NzY5MDUzMjQsImlleHAiOjE2NzY5MDU1MDR9.kf--dC4BK-IgSaMFnwxYrnXyyPckcmfpfR7s7v31IPs\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWJkZjNmNDc4OTIzYjQ0YTkxMmQiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6MTEiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiQUxVTU5PIiwiaWF0IjoxNjc2OTU5NDU0LCJpZXhwIjoxNjc2OTU5NjM0fQ.JOVBLho-tfACV_lVKv1ftCdJKUl2fH61wDD6F4l-oeQ\""
       }
     ],
     "params": [],
@@ -265,8 +263,8 @@
       "raw": "",
       "form": [
         {
-          "name": "student",
-          "value": "a"
+          "name": "name",
+          "value": "e"
         }
       ]
     },
@@ -281,11 +279,11 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2023-02-20T15:09:50.598Z",
-    "modified": "2023-02-20T16:41:59.805Z",
+    "modified": "2023-02-21T05:36:29.576Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzNzM0MzFhMTMzZDRjMjJiODZmM2QiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6IiwiZW1haWwiOiJhbG9wZXpAa2luYWwuZWR1Lmd0Iiwicm9sZSI6Ik1BRVNUUk8iLCJpYXQiOjE2NzY5MDYwODQsImlleHAiOjE2NzY5MDYyNjR9.zdL7gdCQ_pYKNOQXOW5GE-XJeJr3FfCVMqSIkcghZwI\""
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWNhNGQyYzM4NDJjYmY5ZGE3ZjYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NjAiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3NjkzMDM1NCwiaWV4cCI6MTY3NjkzMDUzNH0.XI75mIazxQNRJO94Stvm3XVGSRTOo5eMdnfFhdLFKDc\""
       }
     ],
     "params": [],
@@ -295,7 +293,7 @@
       "form": [
         {
           "name": "name",
-          "value": "Sociales IIIIIII"
+          "value": "si"
         },
         {
           "name": "description",
@@ -303,8 +301,7 @@
         },
         {
           "name": "teacher",
-          "value": "alopez58",
-          "isDisabled": true
+          "value": "alopez61"
         },
         {
           "name": "student",
@@ -312,6 +309,118 @@
         }
       ]
     },
+    "tests": []
+  },
+  {
+    "_id": "defbc99e-89f9-4b27-b4bb-b6f131306a32",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "ab0c374e-c4e7-46db-a660-faed0e36f3aa",
+    "name": "getCourses",
+    "url": "/courses/coursesEnrolled/63f3ebda75e09a3027033e10",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2023-02-21T03:00:58.199Z",
+    "modified": "2023-02-21T06:04:09.441Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWJkYTc1ZTA5YTMwMjcwMzNlMTAiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6OCIsImVtYWlsIjoiYWxvcGV6QGtpbmFsLmVkdS5ndCIsInJvbGUiOiJBTFVNTk8iLCJpYXQiOjE2NzY5NTkzOTgsImlleHAiOjE2NzY5NTk1Nzh9.Ki1b0MN-nfZ8Ff2HI9gwY9v_xrYGZY66z1TS945Ca4w\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "e7cb7b27-d9cc-4508-91ac-c2549b1a6621",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "a5ab811c-a90e-4caf-beae-91623095ffbd",
+    "name": "getCoursesMaestro",
+    "url": "/courses/maestroCourses/63f3ebd30b4c16b67541c15f",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-02-21T05:19:37.749Z",
+    "modified": "2023-02-21T06:10:40.852Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWNhNjI3MzEzNzkxNTY1NGRjZTYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NjEiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njk1NzA0MiwiaWV4cCI6MTY3Njk1NzIyMn0.zAwDRmOW-k57UZPIHp7lvBmYYNrt7u0bcxI2qMBQvuw\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "1a97305f-4655-4c9e-ba64-ef3ba4f1a723",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "a5ab811c-a90e-4caf-beae-91623095ffbd",
+    "name": "editCourses",
+    "url": "/courses/editCourse/63f455952b21af572b3b3b02",
+    "method": "PUT",
+    "sortNum": 110000,
+    "created": "2023-02-21T05:26:19.211Z",
+    "modified": "2023-02-21T06:04:48.905Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWNhNjI3MzEzNzkxNTY1NGRjZTYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NjEiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njk1OTQ3NCwiaWV4cCI6MTY3Njk1OTY1NH0.8v-9rXI-NJm1Ona_hMwSuJlBpylNZ5B8DSr3YkXwzEs\""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "chocha"
+        },
+        {
+          "name": "description",
+          "value": "e"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "8a70c6e0-e341-47a8-a4fd-f5768d9f7c30",
+    "colId": "275d0d7b-5f15-4a59-afb9-6a6c233117e3",
+    "containerId": "a5ab811c-a90e-4caf-beae-91623095ffbd",
+    "name": "delete",
+    "url": "/courses/deleteCourse/63f455952b21af572b3b3b02",
+    "method": "DELETE",
+    "sortNum": 120000,
+    "created": "2023-02-21T05:53:12.951Z",
+    "modified": "2023-02-21T06:13:17.076Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2YzZWNhNjI3MzEzNzkxNTY1NGRjZTYiLCJuYW1lIjoiQWxhbiIsInN1cm5hbWUiOiJMb3BleiIsInVzZXJuYW1lIjoiYWxvcGV6NjEiLCJlbWFpbCI6ImFsb3BlekBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiTUFFU1RSTyIsImlhdCI6MTY3Njk1OTg0OCwiaWV4cCI6MTY3Njk2MDAyOH0.beN02soeAIuczzWYmdr9q7xtT0Mk0dSvhwDdwyxJ3O4\""
+      }
+    ],
+    "params": [],
     "tests": []
   }
 ]

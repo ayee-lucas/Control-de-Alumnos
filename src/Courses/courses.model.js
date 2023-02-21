@@ -15,14 +15,23 @@ const coursesSchema = mongoose.Schema({
     },
     teacher: {
         type: mongoose.Schema.Types.ObjectId, ref: 'User',
-/*         validate: validator = function (value) {
-            
-        } */
     },
-    student: {
-        type:  mongoose.Schema.Types.ObjectId, ref: 'User'
-    }
+    students: [{
+        type: mongoose.Schema.Types.ObjectId, ref: 'User',
+        validate: {
+            validator: async function(students) {
+                const count = await mongoose.model('Course').countDocuments({
+                  students: {
+                    $in: students
+                  }
+                });
+                return count <= 2;
+              },
+            message: 'User can only be assigned to a maximum of 3 courses'
+        }
+    }]
 });
 
+coursesSchema.index({ name: 1, students: 1 }, { unique: true });
 
 module.exports = mongoose.model('Course', coursesSchema);
